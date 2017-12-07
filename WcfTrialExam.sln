@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTrialExam", "WcfTrialExam\WcfTrialExam.csproj", "{807D89BA-3641-43C7-AA40-4281303B764D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionClient", "AuctionClient\AuctionClient.csproj", "{EAEB56D5-CE6F-48BE-9FBE-E828D8B1F43B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{807D89BA-3641-43C7-AA40-4281303B764D} = {807D89BA-3641-43C7-AA40-4281303B764D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{807D89BA-3641-43C7-AA40-4281303B764D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807D89BA-3641-43C7-AA40-4281303B764D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807D89BA-3641-43C7-AA40-4281303B764D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807D89BA-3641-43C7-AA40-4281303B764D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEB56D5-CE6F-48BE-9FBE-E828D8B1F43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEB56D5-CE6F-48BE-9FBE-E828D8B1F43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEB56D5-CE6F-48BE-9FBE-E828D8B1F43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEB56D5-CE6F-48BE-9FBE-E828D8B1F43B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29E31DC5-A3B3-4433-98CE-D2C3D620822F}
+	EndGlobalSection
+EndGlobal
